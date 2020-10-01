@@ -2,11 +2,18 @@
 body{
     margin: 0px;
     text-align: center;
+    font-family: 'Fira Sans', sans-serif;
 }
 h1{
     margin-top: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
 }
 
+p{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 25px;;
+}
 /* ****************************Class CSS***************************** */
 
 .bottom{
