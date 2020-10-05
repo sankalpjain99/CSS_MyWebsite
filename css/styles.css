@@ -1,26 +1,44 @@
-/* ****************************Tags CSS***************************** */
+/* ****************************Tag CSS***************************** */
 body{
+    color: #40514E;
     margin: 0px;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
 }
 h1{
-    margin-top: 0;
+    color: #66bfbf;
+    margin:0;
     font-family: 'Caveat', cursive;
-    font-size: 80px;
+    font-size: 500%;
+}
+
+h2{
+    color: #66bfbf;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 40px;
+    margin:20px 0;;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 30px;
+}
+
+hr{
+    width: 5%;
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    border-width: 10px;
 }
 
 p{
     font-family: 'Darker Grotesque', sans-serif;
-    font-size: 25px;;
+    font-size: 25px;
+    margin: 0 0 40px 0;    
 }
 /* ****************************Class CSS***************************** */
 
-.bottom{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-} 
 
 .bottom-cloud{
     position: absolute;
@@ -28,13 +46,78 @@ p{
     bottom: 300px;
 }
 
-.mid{
-    background-color: red;
-    height: 200px;
-    width: 200px;
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px;
 }
 
-.top{
+.btn {
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    color: #FFFFFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 10px 30px 10px 30px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.btn:hover {
+    background: #66BFBF;
+    border: solid #000000 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contact-me{
+    padding: 30px;
+    width: 30%;
+    margin: 0 auto 30px auto;
+}
+
+.footer-link{
+    color: #11999E;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #eaf6f6;
+}
+
+.profile{
+    width: 40%;
+    margin: 80px auto 80px auto;
+}
+
+.skill-img-1,.skill-img-2{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img-2{
+    float: right;
+
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 40%;
+}
+
+.top-container{
     background-color: #e8ffff;
     padding-top: 150px;
     position: relative;
@@ -44,4 +127,17 @@ p{
     position: absolute ;
     right:400px;
     top: 50px;
+}
+
+/* ****************************ID CSS***************************** */
+
+#copyright{
+    margin-top: 20px;
+    color: #EAF6F6;
+}
+
+#desc{
+    color: #66bfbf;
+    font-weight: normal;
+    margin-top: 5px;
 }
